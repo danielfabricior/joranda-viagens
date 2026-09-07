@@ -1,4 +1,11 @@
-::root {
+@font-face {
+ font-family: "Montserrat";
+ src: url(../fonts/montserrat);
+ font-style: normal;
+ font-display: swap;
+}
+
+:root {
  --background-primary-color: #FFFFFF;
  --background-secondary-color: #F5F5F5;
  --background-tertiary-color: #000000;
@@ -17,6 +24,11 @@ body, img, p, fieldset, legend, input, select, textarea, button {
  box-sizing: border-box;
 }
 
-h1{
+h1 {
  color: var(--button-primary-color);
+ font-family: "Montserrat";
+}
+
+h2 {
+ font-size: 32px;
 }
