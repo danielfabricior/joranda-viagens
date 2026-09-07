@@ -1,7 +1,22 @@
-/*RESET CSS*/
-body, img, p, fieldset, legend, input, select, textarea, button {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+::root {
+ --background-primary-color: #FFFFFF;
+ --background-secondary-color: #F5F5F5;
+ --background-tertiary-color: #000000;
+ 
+ --button-primary-color: #BF0101;
+ --button-primary-color: #B81515;
+ 
+ --text-primary-color: #222222;
+ --text-secundary-color: #FFFFFF;
 }
 
+/*RESET CSS*/
+body, img, p, fieldset, legend, input, select, textarea, button {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+h1{
+color: var(--button-primary-color);
+}
