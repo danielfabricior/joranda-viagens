@@ -18,5 +18,5 @@ body, img, p, fieldset, legend, input, select, textarea, button {
 }
 
 h1{
-
+ color: var(--button-primary-color);
 }
